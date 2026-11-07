@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jan Gabriel Chavez — Public Resume</title>
+  <meta name="description" content="Public resume of Jan Gabriel Chavez, Database Management & Workflow Automation Specialist. Experience in Python, SQL, BI Dashboards, and CRM systems.">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    /* Dedicated Resume Page Styles */
+    .resume-page-wrapper {
+      max-width: 850px;
+      margin: 2rem auto;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      padding: 3rem;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    }
+
+    [data-theme="light"] .resume-page-wrapper {
+      background: #ffffff;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    .resume-actions-bar {
+      max-width: 850px;
+      margin: 1.5rem auto 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 1rem;
+    }
+
+    .resume-header {
+      border-bottom: 2px solid var(--accent-primary);
+      padding-bottom: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .resume-name {
+      font-size: 2.25rem;
+      font-weight: 800;
+      color: var(--text-primary);
+      letter-spacing: -0.02em;
+      margin-bottom: 0.25rem;
+    }
+
+    .resume-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: var(--accent-primary);
+      margin-bottom: 0.75rem;
+    }
+
+    .resume-contact-line {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 1.25rem;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    .resume-contact-line a {
+      color: var(--text-secondary);
+      text-decoration: underline;
+    }
+
+    .resume-section {
+      margin-bottom: 2rem;
+    }
+
+    .resume-section-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent-primary);
+      border-bottom: 1px solid var(--border-subtle);
+      padding-bottom: 0.35rem;
+      margin-bottom: 1rem;
+    }
+
+    .resume-item {
+      margin-bottom: 1.5rem;
+    }
+
+    .resume-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .resume-item-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 0.25rem;
+    }
+
+    .resume-item-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+
+    .resume-item-company {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--text-secondary);
+    }
+
+    .resume-item-date {
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--text-muted);
+      white-space: nowrap;
+    }
+
+    .resume-bullets {
+      list-style: none;
+      padding-left: 0;
+      margin-top: 0.5rem;
+    }
+
+    .resume-bullets li {
+      position: relative;
+      padding-left: 1.25rem;
+      margin-bottom: 0.35rem;
+      font-size: 0.925rem;
+      color: var(--text-secondary);
+      line-height: 1.5;
+    }
+
+    .resume-bullets li::before {
+      content: "•";
+      position: absolute;
+      left: 0.25rem;
+      color: var(--accent-primary);
+    }
+
+    .skills-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.925rem;
+    }
+
+    .skills-table td {
+      padding: 0.4rem 0;
+      vertical-align: top;
+    }
+
+    .skills-category {
+      font-weight: 700;
+      color: var(--text-primary);
+      width: 32%;
+    }
+
+    .skills-list {
+      color: var(--text-secondary);
+    }
+
+    /* Print Formatting */
+    @media print {
+      body {
+        background: #ffffff !important;
+        color: #111827 !important;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif !important;
+      }
+
+      .resume-actions-bar,
+      .site-header {
+        display: none !important;
+      }
+
+      .resume-page-wrapper {
+        border: none !important;
+        box-shadow: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        max-width: 100% !important;
+      }
+
+      .resume-name {
+        color: #000000 !important;
+        font-size: 20pt !important;
+      }
+
+      .resume-title {
+        color: #1d4ed8 !important;
+        font-size: 12pt !important;
+      }
+
+      .resume-section-title {
+        color: #1d4ed8 !important;
+        border-bottom: 1.5pt solid #cbd5e1 !important;
+        font-size: 10.5pt !important;
+      }
+
+      .resume-item-title {
+        color: #000000 !important;
+        font-size: 10.5pt !important;
+      }
+
+      .resume-item-company,
+      .resume-bullets li,
+      .skills-list,
+      .resume-contact-line {
+        color: #374151 !important;
+        font-size: 9.5pt !important;
+        line-height: 1.35 !important;
+      }
+
+      .resume-item {
+        page-break-inside: avoid;
+        margin-bottom: 1rem !important;
+      }
+
+      a {
+        text-decoration: none !important;
+        color: #000000 !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Action Bar -->
+  <aside class="resume-actions-bar" aria-label="Page controls">
+    <a href="index.html" class="btn btn-secondary btn-sm">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+      Back to Portfolio
+    </a>
+    <div style="display: flex; gap: 0.5rem; align-items: center;">
+      <button onclick="window.print()" class="btn btn-primary btn-sm">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+        Print / Save PDF
+      </button>
+      <button id="theme-toggle-btn" class="btn-icon" aria-label="Toggle theme">
+        <span id="theme-icon"></span>
+      </button>
+    </div>
+  </aside>
+
+  <!-- Resume Document Container -->
+  <main class="resume-page-wrapper">
+
+    <!-- Header -->
+    <header class="resume-header">
+      <h1 class="resume-name">Jan Gabriel Chavez</h1>
+      <p class="resume-title">Database Management & Workflow Automation Specialist</p>
+      <div class="resume-contact-line">
+        <span>Parañaque City, Metro Manila, Philippines</span>
+        <span>•</span>
+        <a href="mailto:jangabrielchavez1@gmail.com">jangabrielchavez1@gmail.com</a>
+        <span>•</span>
+        <a href="https://github.com/jgmchavez-22" target="_blank" rel="noopener noreferrer">github.com/jgmchavez-22</a>
+        <span>•</span>
+        <a href="https://www.linkedin.com/in/jgmchavez/" target="_blank" rel="noopener noreferrer">linkedin.com/in/jgmchavez</a>
+      </div>
+    </header>
+
+    <!-- Professional Summary -->
+    <section class="resume-section" aria-labelledby="summary-title">
+      <h2 id="summary-title" class="resume-section-title">Professional Summary</h2>
+      <p style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.55;">
+        Detail-oriented IT and database professional with hands-on experience in Python, SQL, database management, workflow automation, and technical troubleshooting. Strong foundation in data analytics and AI through specialized training, with proven experience developing internal tools, architecting Business Intelligence dashboards, and optimizing business processes. Adept at bridging technical systems, CRM data validation, and regulatory compliance to drive continuous operational efficiency.
+      </p>
+    </section>
+
+    <!-- Core Competencies & Skills -->
+    <section class="resume-section" aria-labelledby="skills-title">
+      <h2 id="skills-title" class="resume-section-title">Core Competencies & Technical Skills</h2>
+      <table class="skills-table">
+        <tbody>
+          <tr>
+            <td class="skills-category">Software & Automation:</td>
+            <td class="skills-list">Python, HTML5, CSS3, JavaScript, Web Scraping (<code>BeautifulSoup</code>, <code>requests</code>), AI/LLM Workflow Integration, Custom HTTP/CORS Proxies</td>
+          </tr>
+          <tr>
+            <td class="skills-category">Data & Analytics:</td>
+            <td class="skills-list">SQL, Power BI, Power Query, Looker Studio, CRM Management & Validation, SheetJS, ExcelJS, Data Modeling</td>
+          </tr>
+          <tr>
+            <td class="skills-category">IT Support & Systems:</td>
+            <td class="skills-list">Software Testing & QA, Technical Troubleshooting, Windows & macOS Administration, Office Wi-Fi & Structured Cabling, Information Security Principles (ISC2 CC)</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Professional Experience -->
+    <section class="resume-section" aria-labelledby="exp-title">
+      <h2 id="exp-title" class="resume-section-title">Professional Experience</h2>
+
+      <!-- Role 1 -->
+      <article class="resume-item">
+        <div class="resume-item-header">
+          <div>
+            <h3 class="resume-item-title">Database Management and Reports Specialist</h3>
+            <span class="resume-item-company">G9Outsourcing Corp. — Makati, Metro Manila</span>
+          </div>
+          <span class="resume-item-date">Feb 2026 – Present</span>
+        </div>
+        <ul class="resume-bullets">
+          <li>Developed Business Intelligence dashboards consolidating data from multiple operational sources, reducing manual reporting turnaround time by an estimated 30%.</li>
+          <li>Automated 5–10 repetitive workflows using Python, HTML, web scraping, and large language models, saving approximately 4–6 hours of manual labor weekly.</li>
+          <li>Performed systematic software QA checks and validated CRM data to improve enterprise reporting accuracy and data integrity.</li>
+        </ul>
+      </article>
+
+      <!-- Role 2 -->
+      <article class="resume-item">
+        <div class="resume-item-header">
+          <div>
+            <h3 class="resume-item-title">Paralegal</h3>
+            <span class="resume-item-company">Duran & Duran-Schulze Law — Taguig, Metro Manila</span>
+          </div>
+          <span class="resume-item-date">July 2025 – Nov 2025</span>
+        </div>
+        <ul class="resume-bullets">
+          <li>Managed compliance calendars and tracked 15–20 concurrent regulatory deadlines, ensuring zero missed submissions and structured documentation.</li>
+          <li>Drafted and reviewed legal documentation while coordinating requirements across four Philippine government agencies: Securities and Exchange Commission (SEC), Department of Justice (DOJ), Bureau of Immigration (BI), and Department of Labor and Employment (DOLE).</li>
+          <li>Coordinated communications among clients, lawyers, and external stakeholders via Basecamp, tracking active case milestones and follow-ups.</li>
+        </ul>
+      </article>
+
+      <!-- Role 3 -->
+      <article class="resume-item">
+        <div class="resume-item-header">
+          <div>
+            <h3 class="resume-item-title">IT Specialist</h3>
+            <span class="resume-item-company">TMC Travel and Tours — Parañaque, Metro Manila</span>
+          </div>
+          <span class="resume-item-date">July 2023 – July 2024</span>
+        </div>
+        <ul class="resume-bullets">
+          <li>Maintained fleet of Windows and macOS workstations, resolving hardware, software, and configuration issues to eliminate disruptions across office operations.</li>
+          <li>Configured office Wi-Fi and structured cabling, supporting reliable connectivity for daily commercial business activities.</li>
+        </ul>
+      </article>
+
+      <!-- Role 4 -->
+      <article class="resume-item">
+        <div class="resume-item-header">
+          <div>
+            <h3 class="resume-item-title">Sales and Marketing Associate</h3>
+            <span class="resume-item-company">TMC Travel and Tours — Parañaque, Metro Manila</span>
+          </div>
+          <span class="resume-item-date">Jan 2022 – July 2023</span>
+        </div>
+        <ul class="resume-bullets">
+          <li>Coordinated bookings, responded to client inquiries, and supported sales and marketing campaigns to facilitate customer service and business development.</li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- Education -->
+    <section class="resume-section" aria-labelledby="edu-title">
+      <h2 id="edu-title" class="resume-section-title">Education</h2>
+      <div class="resume-item">
+        <div class="resume-item-header">
+          <div>
+            <h3 class="resume-item-title">Bachelor of Science in Business Administration (BSBA)</h3>
+            <span class="resume-item-company">Major in Marketing Management — University of Santo Tomas, Manila</span>
+          </div>
+          <span class="resume-item-date">2020 – 2024</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section class="resume-section" aria-labelledby="cert-title">
+      <h2 id="cert-title" class="resume-section-title">Certifications & Credentials</h2>
+      <ul class="resume-bullets">
+        <li><strong>Python for Data and AI</strong> — Uplift Code Camp (July 2026)</li>
+        <li><strong>Certified in Cybersecurity (CC)</strong> — ISC2 (December 2025)</li>
+        <li><strong>Certified Paralegal (CePL)</strong> — Accredited Legal Education Program (May 2025)</li>
+      </ul>
+    </section>
+
+    <footer style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-subtle); text-align: center; font-size: 0.85rem; color: var(--text-muted);">
+      <p>Professional references and portfolio project demonstrations available upon request.</p>
+    </footer>
+
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
