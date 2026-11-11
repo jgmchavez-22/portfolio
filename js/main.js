@@ -144,6 +144,72 @@
         }
       ]
     },
+    'shelfiq': {
+      title: 'ShelfIQ // Spoilage Prediction & Restock Decision System',
+      category: 'Data Science & Machine Learning',
+      status: 'Completed / Uplift Code Camp Capstone',
+      repoUrl: 'https://github.com/jgmchavez-22/ShelfIQ',
+      sections: [
+        {
+          heading: 'Operational Context & Problem',
+          content: 'Mid-sized grocery retailers and chilled-goods distributors in the Philippines face high inventory shrinkage due to El Niño heat spikes and cold-chain transit breakdowns. Conventional inventory models assume static product shelf lives, meaning when transit temperatures accelerate decay, products spoil unexpectedly and revenue drops to zero.'
+        },
+        {
+          heading: 'Objective',
+          content: 'Develop an end-to-end Machine Learning decision support platform that ingests transit sensor and inventory data, calculates Remaining Useful Life (RUL) to predict spoilage before expiry, forecasts time-series restocks, and triggers proactive rescue-pricing actions.'
+        },
+        {
+          heading: 'My Specific Role & Contribution',
+          content: 'Machine Learning Engineer (Capstone Co-Developer). Developed the core Spoilage Prediction Engine (`pages/rul_model.py`) using Random Forest classification, mapped feature importance weights, calculated dynamic days-to-sell urgency tiers, and programmed automated markdown/upcycling rule logic.'
+        },
+        {
+          heading: 'Technical Implementation & Decisions',
+          items: [
+            'Trained a Random Forest Classifier on historical inventory logs and transit metrics (stock levels, days to sell, daily demand, lead times, sensitivity scores) to identify batch spoilage risk.',
+            'Engineered dynamic inference comparing current inventory lots against remaining shelf-life days to segment stock into four action tiers (Final Markdown <24h, Priority Sell 1–2d, Early Markdown 3–5d, Watch 5+d).',
+            'Programmed automated rescue pricing rules (5% to 50% discount tiers) and upcycle flags for perishable produce and dairy categories.',
+            'Integrated predictive model outputs with Streamlit interactive KPI metric cards and downloadable CSV risk reports.'
+          ]
+        },
+        {
+          heading: 'Verified Outcome & Impact',
+          content: 'Successfully pitched and demonstrated to Uplift Code Camp evaluators as an end-to-end retail decision engine, translating raw IoT/transit metrics into actionable business interventions to protect retailer margins.'
+        }
+      ]
+    },
+    'matchlink-templater': {
+      title: 'Match Link // Company Name Templater',
+      category: 'Software & Automation',
+      status: 'In Production / Public Repository',
+      repoUrl: 'https://github.com/jgmchavez-22/Match-Link',
+      sections: [
+        {
+          heading: 'Operational Context & Problem',
+          content: 'Reconciling customer, vendor, or lead lists across CRM databases and accounting platforms frequently fails exact matching (VLOOKUP, XLOOKUP, INDEX/MATCH) due to inconsistent corporate suffixes (e.g., PTE LTD, LLC, Corp, Private Limited) and punctuation variations.'
+        },
+        {
+          heading: 'Objective',
+          content: 'Create a lightweight, high-performance web tool that automatically cleans corporate entity names and dynamically generates tiered prefix lookup formulas directly inside exported Excel workbooks.'
+        },
+        {
+          heading: 'My Specific Role & Contribution',
+          content: 'Sole Developer & Maintainer. Built the asynchronous FastAPI backend, engineered regex normalization pipelines for legal suffixes, designed the responsive glassmorphism UI, and authored the OpenPyXL workbook formatting engine.'
+        },
+        {
+          heading: 'Technical Implementation & Decisions',
+          items: [
+            'Constructed a FastAPI backend with endpoints for header parsing (/api/parse-headers), templating (/api/template), and streamed file delivery (/api/download).',
+            'Built regex tokenization algorithms normalizing diverse regional legal variations (P.T.E. L.T.D., PRIVATE LIMITED, etc.) to standard tokens before stripping them down to clean alphanumeric keys.',
+            'Engineered dynamic Excel formula generation calculating 1-based column letters to inject native =LEFT(ColRow, N) helper columns into workbooks.',
+            'Designed a responsive, modern dark-themed glassmorphism interface with drag-and-drop file upload, plain-text paste, and deduplication toggles.'
+          ]
+        },
+        {
+          heading: 'Verified Outcome & Impact',
+          content: 'Eliminated manual formula construction and entity cleaning in spreadsheet reconciliation workflows, providing team members with a one-click launcher (run.bat) and automated unit test suite.'
+        }
+      ]
+    },
     'bi-dashboards': {
       title: 'Multi-Source Business Intelligence & Reporting Pipeline',
       category: 'Data Analytics & Databases',
