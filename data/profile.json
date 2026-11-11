@@ -208,6 +208,38 @@
       ]
     },
     {
+      "id": "tabula-guard",
+      "title": "tabula-guard // Tabular Schema Drift & PII Auditor for Pre-Commit",
+      "category": "Software & Automation",
+      "status": "Published Open-Source Hook & CLI (v0.1.0)",
+      "repoUrl": "https://github.com/jgmchavez-22/tabula-guard",
+      "summary": "Zero-dependency Git pre-commit hook and CLI auditor that stops unmasked PII, schema drift, and null pollution before tabular datasets are committed to version control.",
+      "context": "Accidentally committing raw client data, CRM extracts, or analytics dumps containing unmasked PII triggers immediate legal and compliance breaches (GDPR, CCPA, Philippine Data Privacy Act), while silent schema drift corrupts downstream ETL jobs.",
+      "objective": "Build a fast, pre-commit-compatible auditor that blocks contaminated CSV/TSV commits using regex scanning, Luhn algorithm verification, and schema contract validation.",
+      "role": "Lead Developer & Security Architect — engineered the PII detection patterns, Luhn algorithm validator, schema comparison engine, pre-commit configuration, and matrix CI.",
+      "approach": [
+        "Implemented high-precision PII detection for emails, phone numbers, and SSN/tax IDs, paired with Luhn algorithm checksums on credit cards to prevent false positives.",
+        "Built schema contract enforcement checking staged files against JSON baselines to catch column drift and unexpected schema mutations.",
+        "Engineered configurable null rate thresholds (flagging columns exceeding empty thresholds).",
+        "Packaged as a native pre-commit hook via .pre-commit-hooks.yaml with 90% automated test coverage in GitHub Actions."
+      ],
+      "deliverables": [
+        "Python CLI and Git pre-commit hook package.",
+        "Luhn credit card and PII validation engine.",
+        "15 automated unit & integration tests and GitHub Actions CI matrix for Python 3.10-3.13."
+      ],
+      "outcome": "Blocks dirty or sensitive data commits with colored terminal diagnostics, ensuring organizational data privacy compliance prior to repository pushes.",
+      "tags": [
+        "Python",
+        "Pre-Commit",
+        "Cybersecurity",
+        "ISC2 CC",
+        "PII Detection",
+        "Data Quality",
+        "CI/CD"
+      ]
+    },
+    {
       "id": "eoc-buff",
       "title": "EOC Buff // End of Campaign Report Generator",
       "category": "Software & Automation",
