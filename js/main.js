@@ -114,7 +114,7 @@
     'eoc-buff': {
       title: 'EOC Buff // End of Campaign Report Generator',
       category: 'Software & Automation',
-      status: 'In Production / Public Repository',
+      status: 'In Production at G9 Outsourcing Corp.',
       repoUrl: 'https://github.com/jgmchavez-22/EOC-Break-FRVNT',
       sections: [
         {
@@ -180,7 +180,7 @@
     'matchlink-templater': {
       title: 'Match Link // Company Name Templater',
       category: 'Software & Automation',
-      status: 'In Production / Public Repository',
+      status: 'In Production at G9 Outsourcing Corp.',
       repoUrl: 'https://github.com/jgmchavez-22/Match-Link',
       sections: [
         {
