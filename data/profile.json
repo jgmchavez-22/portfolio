@@ -1,389 +1,428 @@
-﻿{
-    "personal":  {
-                     "name":  "Jan Gabriel Chavez",
-                     "headline":  "Database Management \u0026 Workflow Automation Specialist",
-                     "valueProposition":  "Automating repetitive operational workflows and building unified BI reporting pipelines that turn multi-source data into reliable, actionable decisions.",
-                     "shortBio":  "Detail-oriented IT and database professional with proven experience developing workflow automations in Python, architecting Business Intelligence dashboards, and managing CRM data validation. Backed by formal training in Python for Data \u0026 AI and ISC2 Cybersecurity certification, with an operational background in cross-agency regulatory compliance and multi-platform IT administration.",
-                     "location":  "Parañaque City, Metro Manila, Philippines",
-                     "email":  "jangabrielchavez1@gmail.com",
-                     "github":  "https://github.com/jgmchavez-22",
-                     "linkedin":  "https://www.linkedin.com/in/jgmchavez/"
-                 },
-    "coreCapabilities":  [
-                             {
-                                 "title":  "Workflow Automation \u0026 Scripting",
-                                 "tagline":  "Eliminating manual data entry and repetitive tasks",
-                                 "description":  "Designs and implements Python scripts, web scrapers, and AI/LLM integrations to automate repetitive multi-step operational workflows, saving teams 4–6 manual hours every week.",
-                                 "tools":  [
-                                               "Python",
-                                               "Web Scraping",
-                                               "LLM APIs",
-                                               "CORS Proxies",
-                                               "Automation Scripts"
-                                           ]
-                             },
-                             {
-                                 "title":  "Business Intelligence \u0026 Reporting",
-                                 "tagline":  "Consolidating fragmented data into actionable metrics",
-                                 "description":  "Architects unified BI dashboards and automated data pipelines across CRM, operational spreadsheets, and third-party tools, slashing manual reporting latency by an estimated 30%.",
-                                 "tools":  [
-                                               "SQL",
-                                               "Power BI",
-                                               "Power Query",
-                                               "Looker Studio",
-                                               "ExcelJS / SheetJS"
-                                           ]
-                             },
-                             {
-                                 "title":  "Data Quality Assurance \u0026 CRM Validation",
-                                 "tagline":  "Ensuring reliable, audit-ready data pipelines",
-                                 "description":  "Performs systematic software quality assurance checks and schema validations on live CRM databases to eliminate duplicates, resolve discrepancies, and protect business reporting accuracy.",
-                                 "tools":  [
-                                               "CRM Management",
-                                               "Software QA",
-                                               "Schema Validation",
-                                               "Data Cleaning"
-                                           ]
-                             },
-                             {
-                                 "title":  "IT Systems \u0026 Infrastructure Support",
-                                 "tagline":  "Zero-downtime hardware, software, and network operations",
-                                 "description":  "Maintains hybrid Windows and macOS fleet workstations, configures enterprise Wi-Fi and structured cabling, and resolves critical technical incidents with a security-first mindset.",
-                                 "tools":  [
-                                               "Windows Administration",
-                                               "macOS Support",
-                                               "Network Cabling \u0026 Wi-Fi",
-                                               "Hardware Diagnostics"
-                                           ]
-                             },
-                             {
-                                 "title":  "Regulatory Compliance \u0026 Case Coordination",
-                                 "tagline":  "Tracking high-stakes requirements across regulatory agencies",
-                                 "description":  "Tracked and met 15–20 concurrent statutory compliance deadlines across four Philippine government agencies (SEC, DOJ, BI, DOLE) with structured Basecamp project workflows.",
-                                 "tools":  [
-                                               "Basecamp",
-                                               "Statutory Compliance",
-                                               "Legal Documentation",
-                                               "Stakeholder Coordination"
-                                           ]
-                             }
-                         ],
-    "skillsByCategory":  {
-                             "Software \u0026 Application Development":  [
-                                                                             "Python",
-                                                                             "HTML5",
-                                                                             "CSS3",
-                                                                             "JavaScript (ES6+)",
-                                                                             "Web Scraping (BeautifulSoup/Requests)",
-                                                                             "AI \u0026 LLM Integration",
-                                                                             "HTTP/REST Proxies"
-                                                                         ],
-                             "Data Analytics \u0026 Databases":  [
-                                                                     "SQL",
-                                                                     "Power BI",
-                                                                     "Power Query",
-                                                                     "Looker Studio",
-                                                                     "CRM Management",
-                                                                     "SheetJS \u0026 ExcelJS",
-                                                                     "Data Modeling"
-                                                                 ],
-                             "IT Support, Systems \u0026 Security":  [
-                                                                         "Software Testing \u0026 QA",
-                                                                         "Technical Troubleshooting",
-                                                                         "Windows \u0026 macOS Administration",
-                                                                         "Office Wi-Fi \u0026 Structured Cabling",
-                                                                         "Cybersecurity Principles (ISC2 CC)",
-                                                                         "System Reliability"
-                                                                     ]
-                         },
-    "experience":  [
-                       {
-                           "title":  "Database Management and Reports Specialist",
-                           "company":  "G9Outsourcing Corp.",
-                           "location":  "Makati, Metro Manila",
-                           "period":  "Feb 2026 – Present",
-                           "type":  "Full-Time",
-                           "highlights":  [
-                                              "Developed Business Intelligence dashboards consolidating data from multiple operational sources, reducing manual reporting time by an estimated 30%.",
-                                              "Automated 5–10 repetitive operational workflows using Python, HTML, web scraping, and large language models, saving approximately 4–6 hours of manual labor weekly.",
-                                              "Performed continuous software QA checks and systematically validated CRM data to ensure high data integrity, reliability, and audit readiness."
-                                          ]
-                       },
-                       {
-                           "title":  "Paralegal",
-                           "company":  "Duran \u0026 Duran-Schulze Law",
-                           "location":  "Taguig, Metro Manila",
-                           "period":  "July 2025 – Nov 2025",
-                           "type":  "Contract / Full-Time",
-                           "highlights":  [
-                                              "Managed strict regulatory compliance calendars and tracked 15–20 concurrent legal deadlines, ensuring zero missed submissions and structured document preparation.",
-                                              "Drafted and audited legal filings while coordinating requirements across four government agencies: SEC, DOJ, Bureau of Immigration (BI), and DOLE.",
-                                              "Coordinated multi-stakeholder communications across clients, senior attorneys, and external agencies using Basecamp, tracking active case milestones."
-                                          ]
-                       },
-                       {
-                           "title":  "IT Specialist",
-                           "company":  "TMC Travel and Tours",
-                           "location":  "Parañaque, Metro Manila",
-                           "period":  "July 2023 – July 2024",
-                           "type":  "Full-Time",
-                           "highlights":  [
-                                              "Maintained fleet of Windows and macOS workstations, troubleshooting hardware, operating systems, and office software to eliminate operational disruptions.",
-                                              "Configured and maintained office Wi-Fi networks and structured network cabling, guaranteeing continuous high-speed connectivity for business operations."
-                                          ]
-                       },
-                       {
-                           "title":  "Sales and Marketing Associate",
-                           "company":  "TMC Travel and Tours",
-                           "location":  "Parañaque, Metro Manila",
-                           "period":  "Jan 2022 – July 2023",
-                           "type":  "Full-Time",
-                           "highlights":  [
-                                              "Coordinated bookings, handled high-volume client inquiries, and executed promotional campaigns to drive customer satisfaction and client acquisition."
-                                          ]
-                       }
-                   ],
-    "education":  [
-                      {
-                          "degree":  "Bachelor of Science in Business Administration (BSBA), Major in Marketing Management",
-                          "institution":  "University of Santo Tomas",
-                          "location":  "Manila, Philippines",
-                          "period":  "2020 – 2024"
-                      }
-                  ],
-    "certifications":  [
-                           {
-                               "name":  "Python for Data and AI",
-                               "issuer":  "Uplift Code Camp",
-                               "date":  "July 2026",
-                               "badge":  "Data \u0026 AI Programming"
-                           },
-                           {
-                               "name":  "Certified in Cybersecurity (CC)",
-                               "issuer":  "ISC2",
-                               "date":  "December 2025",
-                               "badge":  "Information Security"
-                           },
-                           {
-                               "name":  "Certified Paralegal (CePL)",
-                               "issuer":  "Accredited Legal Program",
-                               "date":  "May 2025",
-                               "badge":  "Legal Compliance"
-                           }
-                       ],
-    "portfolio":  [
-                      {
-                          "id":  "eoc-buff",
-                          "title":  "EOC Buff // End of Campaign Report Generator",
-                          "category":  "Software \u0026 Automation",
-                          "status":  "In Production at G9 Outsourcing Corp.",
-                          "repoUrl":  "https://github.com/jgmchavez-22/EOC-Break-FRVNT",
-                          "summary":  "Full-stack client/server operational utility that ingests campaign data from Google Sheets via an authenticated local Python CORS proxy and renders styled Excel summaries with zero manual formula entry.",
-                          "context":  "Campaign reporting teams had to manually copy, reformat, and calculate performance metrics from live Google Sheets into client-facing Excel spreadsheets, risking human error and spending hours per reporting cycle.",
-                          "objective":  "Build a secure, lightweight, and self-contained reporting application that automatically pulls data, runs aggregation logic, and outputs formatted Excel reports.",
-                          "role":  "Lead Developer \u0026 Systems Architect — designed the architecture, wrote the Python proxy server, and engineered the browser-based data processing UI.",
-                          "approach":  [
-                                           "Engineered a lightweight local HTTP proxy in Python (`server.py`) using `http.server` and `urllib.request` with domain-filtering safeguards (restricting requests strictly to `docs.google.com`) to bypass browser CORS constraints.",
-                                           "Built an interactive single-page application (`EOC_Report_Generator.html`) incorporating SheetJS (`xlsx`) and ExcelJS to read, normalize, and construct customized workbook layouts with embedded styles.",
-                                           "Implemented clean command-line logging and real-time frontend status feedback for report generation progress."
-                                       ],
-                          "deliverables":  [
-                                               "Python HTTP proxy server with domain validation security.",
-                                               "Interactive browser-based report generator with SheetJS \u0026 ExcelJS processing.",
-                                               "Direct one-click export of styled Excel workbooks."
-                                           ],
-                          "outcome":  "Eliminated manual spreadsheet transcription errors and streamlined campaign wrap-up reporting into an automated workflow executable with a single command (`python server.py`).",
-                          "tags":  [
-                                       "Python",
-                                       "JavaScript",
-                                       "HTML5",
-                                       "SheetJS",
-                                       "ExcelJS",
-                                       "Google Sheets API",
-                                       "CORS Proxy"
-                                   ]
-                      },
-                      {
-                          "id":  "shelfiq",
-                          "title":  "ShelfIQ // Perishable Spoilage Prediction \u0026 Restock Decision System",
-                          "category":  "Data Science \u0026 Machine Learning",
-                          "status":  "Completed / Uplift Code Camp Capstone",
-                          "repoUrl":  "https://github.com/jgmchavez-22/ShelfIQ",
-                          "summary":  "Multi-engine Streamlit machine learning application that predicts cold-chain perishable spoilage risks and generates automated rescue-pricing actions for Philippine grocery MSMEs.",
-                          "context":  "Mid-sized grocers and chilled-goods distributors face significant revenue loss during El Niño heat waves and cold-chain transit delays because standard static inventory models cannot anticipate transit decay.",
-                          "objective":  "Build an end-to-end ML decision support application forecasting Remaining Useful Life (RUL) and triggering timely discount strategies before goods spoil.",
-                          "role":  "Machine Learning Engineer (Capstone Co-Developer) — developed the Spoilage Prediction Engine (pages/rul_model.py) using Random Forest classification, mapped feature importances, and built automated urgency-tier markdown rules.",
-                          "approach":  [
-                                           "Trained a Random Forest Classifier on historical inventory logs and transit metrics (stock levels, days to sell, daily demand, lead times, sensitivity scores) to predict perishable batch spoilage.",
-                                           "Engineered dynamic inference comparing current inventory lots against remaining shelf-life days to segment stock into four action tiers (Final Markdown \u003c24h, Priority Sell 1-2d, Early Markdown 3-5d, Watch 5+d).",
-                                           "Implemented automated rescue interventions including upcycle recommendations for produce/dairy and targeted discount ranges (5% to 50%) to accelerate demand prior to spoilage.",
-                                           "Integrated prediction outputs directly into the shared Streamlit application with interactive KPI metrics and downloadable CSV reports."
-                                       ],
-                          "deliverables":  [
-                                               "Random Forest Remaining Useful Life (RUL) Spoilage Engine (pages/rul_model.py).",
-                                               "Dynamic urgency tier categorization and markdown rule generator.",
-                                               "Interactive Streamlit dashboard metrics and downloadable CSV reports."
-                                           ],
-                          "outcome":  "Successfully pitched and demonstrated to Uplift Code Camp evaluators as an end-to-end decision support tool bridging data science predictions with actionable store-level retail decisions.",
-                          "tags":  [
-                                       "Python",
-                                       "Machine Learning",
-                                       "Random Forest",
-                                       "Scikit-Learn",
-                                       "Pandas",
-                                       "Streamlit",
-                                       "FMCG Logistics"
-                                   ]
-                      },
-                      {
-                          "id":  "matchlink-templater",
-                          "title":  "Match Link // Company Name Templater",
-                          "category":  "Software \u0026 Automation",
-                          "status":  "In Production at G9 Outsourcing Corp.",
-                          "repoUrl":  "https://github.com/jgmchavez-22/Match-Link",
-                          "summary":  "FastAPI and Pandas web utility that normalizes corporate legal suffixes, strips non-alphanumeric noise, and dynamically generates tiered Excel lookup formulas (Left 25, 15, 10) for automated CRM and database reconciliation.",
-                          "context":  "Reconciling vendor, client, and lead lists across CRM platforms and accounting databases frequently fails exact matching due to inconsistent entity spellings (e.g., \u0027PTE. LTD.\u0027, \u0027LLC\u0027, \u0027Corp\u0027) and punctuation differences.",
-                          "objective":  "Create a fast, standalone desktop/browser application to ingest tabular data, automate legal suffix stripping, and calculate live Excel formula helper columns for multi-tiered lookup matching.",
-                          "role":  "Lead Developer \u0026 Maintainer — designed the FastAPI backend, normalization regex pipelines, OpenPyXL workbook formatting, and glassmorphism interface.",
-                          "approach":  [
-                                           "Engineered suffix-normalization regular expressions mapping varied legal forms (P.T.E. L.T.D., PRIVATE LIMITED, etc.) to canonical tokens before stripping them down to alphanumeric match keys.",
-                                           "Calculated 1-based dynamic Excel column indices to generate formula strings (=LEFT(ColRow, N)) directly inside exported workbooks.",
-                                           "Constructed an asynchronous FastAPI backend paired with an accessible drag-and-drop and text-paste frontend."
-                                       ],
-                          "deliverables":  [
-                                               "FastAPI backend with /api/parse-headers, /api/template, and /api/download endpoints.",
-                                               "Responsive single-page web UI with file drag-and-drop and multi-line paste support.",
-                                               "One-click Windows launcher (run.bat) and automated test suite (test_templater.py)."
-                                           ],
-                          "outcome":  "Automated data-preparation tasks for list reconciliation, eliminating manual text-editing hours and standardizing lookup keys across operational databases.",
-                          "tags":  [
-                                       "Python",
-                                       "FastAPI",
-                                       "Pandas",
-                                       "OpenPyXL",
-                                       "Data Cleaning",
-                                       "JavaScript",
-                                       "Automation"
-                                   ]
-                      },
-                      {
-                          "id":  "bi-dashboards",
-                          "title":  "Multi-Source Business Intelligence \u0026 Reporting Pipeline",
-                          "category":  "Data \u0026 Analytics",
-                          "status":  "Enterprise Deployment",
-                          "repoUrl":  null,
-                          "summary":  "Unified data reporting system integrating CRM records and operational spreadsheets into executive Power BI and Looker Studio dashboards.",
-                          "context":  "G9Outsourcing operations tracked client performance, agent activity, and deliverables across multiple disjointed spreadsheets and CRM tables, causing delayed visibility and manual overhead.",
-                          "objective":  "Consolidate heterogeneous operational streams into a singular, automated reporting dashboard with automated daily refresh cycles.",
-                          "role":  "Database Management \u0026 Reports Specialist — conducted schema analysis, built transformation queries, and designed executive dashboards.",
-                          "approach":  [
-                                           "Consolidated multi-source data feeds using Power Query and SQL to standardize timestamps, status flags, and client IDs.",
-                                           "Engineered relational data models and calculated measures (DAX) to track turnaround times, completion percentages, and productivity KPIs.",
-                                           "Published role-based interactive dashboards in Power BI and Looker Studio for departmental leadership and clients."
-                                       ],
-                          "deliverables":  [
-                                               "Automated data consolidation pipeline via Power Query/SQL.",
-                                               "Executive Power BI \u0026 Looker Studio interactive dashboards.",
-                                               "Standardized KPI tracking dictionary and documentation."
-                                           ],
-                          "outcome":  "Reduced recurring manual reporting turnaround time by an estimated 30%, giving stakeholders real-time visibility into operational bottlenecks.",
-                          "tags":  [
-                                       "Power BI",
-                                       "SQL",
-                                       "Power Query",
-                                       "Looker Studio",
-                                       "Data Modeling",
-                                       "Business Intelligence"
-                                   ]
-                      },
-                      {
-                          "id":  "workflow-automations",
-                          "title":  "Python Operational Workflow Automation Suite",
-                          "category":  "Software \u0026 Automation",
-                          "status":  "Internal Enterprise Tooling",
-                          "repoUrl":  null,
-                          "summary":  "Suite of 5–10 automated micro-services and scripts combining Python web scraping and LLMs to eliminate repetitive data gathering and validation tasks.",
-                          "context":  "Operational staff spent significant weekly hours manually scraping public registry data, parsing unstructured email text, and re-entering records into internal systems.",
-                          "objective":  "Automate high-volume repetitive workflows to reduce human labor, improve turnaround speed, and eradicate data-entry errors.",
-                          "role":  "Automation Specialist — identified automation candidates, authored Python scripts, and integrated LLM parsing routines.",
-                          "approach":  [
-                                           "Built custom web scrapers using Python (`requests`, `BeautifulSoup`) to extract structured information from public portals on schedule.",
-                                           "Integrated LLM APIs with structured output prompting to parse variable-format text entries into clean JSON payloads.",
-                                           "Configured scheduled batch jobs with error logging and automated alert notifications upon data discrepancies."
-                                       ],
-                          "deliverables":  [
-                                               "5–10 production Python automation scripts.",
-                                               "Automated data extraction and LLM parsing pipelines.",
-                                               "Logging and alert framework for unhandled exceptions."
-                                           ],
-                          "outcome":  "Saved an estimated 4–6 hours of manual effort weekly across operations while eliminating recurring transcription errors.",
-                          "tags":  [
-                                       "Python",
-                                       "Web Scraping",
-                                       "LLMs",
-                                       "Process Automation",
-                                       "JSON",
-                                       "Error Handling"
-                                   ]
-                      },
-                      {
-                          "id":  "compliance-tracker",
-                          "title":  "Multi-Agency Regulatory Compliance \u0026 Calendar System",
-                          "category":  "Process \u0026 Operations",
-                          "status":  "Operational Workflow",
-                          "repoUrl":  null,
-                          "summary":  "Structured compliance tracking and stakeholder coordination system managing 15–20 simultaneous statutory filings across SEC, DOJ, BI, and DOLE.",
-                          "context":  "Corporate clients faced substantial financial and legal penalties if statutory submissions to Philippine government agencies missed rigid deadlines.",
-                          "objective":  "Establish a bulletproof tracking protocol ensuring all document drafts, reviews, notarizations, and agency submissions occurred ahead of regulatory cutoffs.",
-                          "role":  "Paralegal — managed compliance calendars, audited statutory requirements, drafted legal documents, and coordinated multi-party execution.",
-                          "approach":  [
-                                           "Mapped agency-specific statutory timelines and filing pre-requisites for the SEC, Department of Justice, Bureau of Immigration, and DOLE.",
-                                           "Implemented standardized Basecamp milestone templates, recurring review checkpoints, and automated calendar notifications.",
-                                           "Established pre-filing compliance checklists to ensure all annexes, board resolutions, and authorized signatures were authenticated prior to submission."
-                                       ],
-                          "deliverables":  [
-                                               "Centralized regulatory compliance calendar tracking 15–20 concurrent deadlines.",
-                                               "Agency-specific submission check-sheets and document templates.",
-                                               "Multi-stakeholder communication workflows in Basecamp."
-                                           ],
-                          "outcome":  "Achieved a 100% on-time submission rate across all handled client filings with zero regulatory fines or administrative delays.",
-                          "tags":  [
-                                       "Regulatory Compliance",
-                                       "Basecamp",
-                                       "SEC / DOJ / BI / DOLE",
-                                       "Project Coordination",
-                                       "Risk Mitigation"
-                                   ]
-                      },
-                      {
-                          "id":  "it-infrastructure",
-                          "title":  "Dual-OS Workstation Fleet \u0026 Network Infrastructure",
-                          "category":  "IT Support \u0026 Systems",
-                          "status":  "Infrastructure Deployment",
-                          "repoUrl":  null,
-                          "summary":  "End-to-end administration of hybrid Windows and macOS workstations, structured cabling, and enterprise Wi-Fi for travel operations.",
-                          "context":  "TMC Travel and Tours required reliable 24/7 client booking and sales operations without interruptions caused by operating system glitches or network drops.",
-                          "objective":  "Standardize workstation deployments, optimize office network topology, and establish rapid incident resolution protocols.",
-                          "role":  "IT Specialist — directed workstation provisioning, physical and wireless network setup, and technical support ticketing.",
-                          "approach":  [
-                                           "Provisioned, configured, and hardened Windows and macOS laptops and desktops with role-based software images and security baselines.",
-                                           "Designed and laid structured Ethernet cabling and configured commercial Wi-Fi access points to optimize coverage and eliminate dead zones.",
-                                           "Established proactive diagnostic procedures for hardware faults, printer/peripheral sharing, and operating system updates."
-                                       ],
-                          "deliverables":  [
-                                               "Standardized dual-OS workstation fleet configuration.",
-                                               "Reliable structured cabling and office Wi-Fi network.",
-                                               "First-touch technical support resolution workflow."
-                                           ],
-                          "outcome":  "Maintained continuous network availability and minimized office downtime across busy reservation and customer sales seasons.",
-                          "tags":  [
-                                       "Windows",
-                                       "macOS",
-                                       "Structured Cabling",
-                                       "Wi-Fi Configuration",
-                                       "Hardware Troubleshooting",
-                                       "Cybersecurity"
-                                   ]
-                      }
-                  ]
+{
+  "personal": {
+    "name": "Jan Gabriel Chavez",
+    "headline": "Database Management & Workflow Automation Specialist",
+    "valueProposition": "Automating repetitive operational workflows and building unified BI reporting pipelines that turn multi-source data into reliable, actionable decisions.",
+    "shortBio": "Detail-oriented IT and database professional with proven experience developing workflow automations in Python, architecting Business Intelligence dashboards, and managing CRM data validation. Backed by formal training in Python for Data & AI and ISC2 Cybersecurity certification, with an operational background in cross-agency regulatory compliance and multi-platform IT administration.",
+    "location": "Parañaque City, Metro Manila, Philippines",
+    "email": "jangabrielchavez1@gmail.com",
+    "github": "https://github.com/jgmchavez-22",
+    "linkedin": "https://www.linkedin.com/in/jgmchavez/"
+  },
+  "coreCapabilities": [
+    {
+      "title": "Workflow Automation & Scripting",
+      "tagline": "Eliminating manual data entry and repetitive tasks",
+      "description": "Designs and implements Python scripts, web scrapers, and AI/LLM integrations to automate repetitive multi-step operational workflows, saving teams 4–6 manual hours every week.",
+      "tools": [
+        "Python",
+        "Web Scraping",
+        "LLM APIs",
+        "CORS Proxies",
+        "Automation Scripts"
+      ]
+    },
+    {
+      "title": "Business Intelligence & Reporting",
+      "tagline": "Consolidating fragmented data into actionable metrics",
+      "description": "Architects unified BI dashboards and automated data pipelines across CRM, operational spreadsheets, and third-party tools, slashing manual reporting latency by an estimated 30%.",
+      "tools": [
+        "SQL",
+        "Power BI",
+        "Power Query",
+        "Looker Studio",
+        "ExcelJS / SheetJS"
+      ]
+    },
+    {
+      "title": "Data Quality Assurance & CRM Validation",
+      "tagline": "Ensuring reliable, audit-ready data pipelines",
+      "description": "Performs systematic software quality assurance checks and schema validations on live CRM databases to eliminate duplicates, resolve discrepancies, and protect business reporting accuracy.",
+      "tools": [
+        "CRM Management",
+        "Software QA",
+        "Schema Validation",
+        "Data Cleaning"
+      ]
+    },
+    {
+      "title": "IT Systems & Infrastructure Support",
+      "tagline": "Zero-downtime hardware, software, and network operations",
+      "description": "Maintains hybrid Windows and macOS fleet workstations, configures enterprise Wi-Fi and structured cabling, and resolves critical technical incidents with a security-first mindset.",
+      "tools": [
+        "Windows Administration",
+        "macOS Support",
+        "Network Cabling & Wi-Fi",
+        "Hardware Diagnostics"
+      ]
+    },
+    {
+      "title": "Regulatory Compliance & Case Coordination",
+      "tagline": "Tracking high-stakes requirements across regulatory agencies",
+      "description": "Tracked and met 15–20 concurrent statutory compliance deadlines across four Philippine government agencies (SEC, DOJ, BI, DOLE) with structured Basecamp project workflows.",
+      "tools": [
+        "Basecamp",
+        "Statutory Compliance",
+        "Legal Documentation",
+        "Stakeholder Coordination"
+      ]
+    }
+  ],
+  "skillsByCategory": {
+    "Software & Application Development": [
+      "Python",
+      "HTML5",
+      "CSS3",
+      "JavaScript (ES6+)",
+      "Web Scraping (BeautifulSoup/Requests)",
+      "AI & LLM Integration",
+      "HTTP/REST Proxies",
+      "CI/CD (GitHub Actions)",
+      "Docker",
+      "Pytest"
+    ],
+    "Data Analytics & Databases": [
+      "SQL",
+      "Power BI",
+      "Power Query",
+      "Looker Studio",
+      "CRM Management",
+      "SheetJS & ExcelJS",
+      "Data Modeling"
+    ],
+    "IT Support, Systems & Security": [
+      "Software Testing & QA",
+      "Technical Troubleshooting",
+      "Windows & macOS Administration",
+      "Office Wi-Fi & Structured Cabling",
+      "Cybersecurity Principles (ISC2 CC)",
+      "System Reliability"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Database Management and Reports Specialist",
+      "company": "G9Outsourcing Corp.",
+      "location": "Makati, Metro Manila",
+      "period": "Feb 2026 – Present",
+      "type": "Full-Time",
+      "highlights": [
+        "Developed Business Intelligence dashboards consolidating data from multiple operational sources, reducing manual reporting time by an estimated 30%.",
+        "Automated 5–10 repetitive operational workflows using Python, HTML, web scraping, and large language models, saving approximately 4–6 hours of manual labor weekly.",
+        "Performed continuous software QA checks and systematically validated CRM data to ensure high data integrity, reliability, and audit readiness."
+      ]
+    },
+    {
+      "title": "Paralegal",
+      "company": "Duran & Duran-Schulze Law",
+      "location": "Taguig, Metro Manila",
+      "period": "July 2025 – Nov 2025",
+      "type": "Contract / Full-Time",
+      "highlights": [
+        "Managed strict regulatory compliance calendars and tracked 15–20 concurrent legal deadlines, ensuring zero missed submissions and structured document preparation.",
+        "Drafted and audited legal filings while coordinating requirements across four government agencies: SEC, DOJ, Bureau of Immigration (BI), and DOLE.",
+        "Coordinated multi-stakeholder communications across clients, senior attorneys, and external agencies using Basecamp, tracking active case milestones."
+      ]
+    },
+    {
+      "title": "IT Specialist",
+      "company": "TMC Travel and Tours",
+      "location": "Parañaque, Metro Manila",
+      "period": "July 2023 – July 2024",
+      "type": "Full-Time",
+      "highlights": [
+        "Maintained fleet of Windows and macOS workstations, troubleshooting hardware, operating systems, and office software to eliminate operational disruptions.",
+        "Configured and maintained office Wi-Fi networks and structured network cabling, guaranteeing continuous high-speed connectivity for business operations."
+      ]
+    },
+    {
+      "title": "Sales and Marketing Associate",
+      "company": "TMC Travel and Tours",
+      "location": "Parañaque, Metro Manila",
+      "period": "Jan 2022 – July 2023",
+      "type": "Full-Time",
+      "highlights": [
+        "Coordinated bookings, handled high-volume client inquiries, and executed promotional campaigns to drive customer satisfaction and client acquisition."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Business Administration (BSBA), Major in Marketing Management",
+      "institution": "University of Santo Tomas",
+      "location": "Manila, Philippines",
+      "period": "2020 – 2024"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Python for Data and AI",
+      "issuer": "Uplift Code Camp",
+      "date": "July 2026",
+      "badge": "Data & AI Programming"
+    },
+    {
+      "name": "Certified in Cybersecurity (CC)",
+      "issuer": "ISC2",
+      "date": "December 2025",
+      "badge": "Information Security"
+    },
+    {
+      "name": "Certified Paralegal (CePL)",
+      "issuer": "Accredited Legal Program",
+      "date": "May 2025",
+      "badge": "Legal Compliance"
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "normcorp",
+      "title": "normcorp // Deterministic Legal Entity Normalizer & Blocking Engine",
+      "category": "Software & Automation",
+      "status": "Published Open-Source Library & CLI (v0.1.0)",
+      "repoUrl": "https://github.com/jgmchavez-22/normcorp",
+      "summary": "High-throughput, zero-dependency Python streaming engine and CLI that eliminates O(N^2) quadratic scaling bottlenecks in enterprise entity matching by deterministically normalizing corporate structures across 8 global jurisdictions and computing Soundex blocking keys.",
+      "context": "Enterprise data pipelines and CRM migrations (Salesforce, HubSpot, SAP) frequently struggle with messy corporate names. Probabilistic fuzzy matching (Levenshtein, Splink, Dedupe) triggers false-positive entity merges and explodes in quadratic compute complexity on unindexed datasets.",
+      "objective": "Build a lightweight, zero-dependency streaming CLI and library that standardizes international corporate suffixes, cleans punctuation noise, and calculates deterministic phonetic blocking keys in constant O(1) memory.",
+      "role": "Lead Author & Open-Source Maintainer — architected the jurisdictional regex lexer, Soundex phonetic generator, constant-memory streaming pipeline, automated GitHub Actions matrix CI, and PyPI packaging.",
+      "approach": [
+        "Engineered a multi-jurisdiction priority lexer standardizing complex entity structures across US, UK, Singapore (ACRA), DACH (GmbH, AG, KG), Netherlands (BV, NV), France/Spain/Italy (SA, SRL, SAS, SPA), and Philippines (INC, CORP, OPC).",
+        "Implemented 4-character American Soundex phonetic blocking partitions and multi-tier substring prefix keys (Left 25, 15, 10) to support high-speed database joins and index blocking.",
+        "Built a streaming CLI supporting Unix pipes and constant O(1) memory iteration over multi-gigabyte files.",
+        "Integrated dynamic Excel formula injection via OpenPyXL to export production spreadsheets with native lookup helper columns."
+      ],
+      "deliverables": [
+        "PEP 621 compliant Python library and CLI built with Hatchling.",
+        "Zero-dependency streaming I/O processor and optional OpenPyXL Excel export helper.",
+        "Comprehensive test suite (32 unit & integration tests, 94% coverage) and GitHub Actions CI matrix for Python 3.10-3.13."
+      ],
+      "outcome": "Processes 100,000 corporate records in 1.28 seconds with under 15 MB of memory, providing an open-source alternative to heavy probabilistic matching tools.",
+      "tags": [
+        "Python",
+        "Open Source",
+        "CLI",
+        "CI/CD",
+        "Entity Resolution",
+        "Soundex",
+        "Data Engineering"
+      ]
+    },
+    {
+      "id": "eoc-buff",
+      "title": "EOC Buff // End of Campaign Report Generator",
+      "category": "Software & Automation",
+      "status": "In Production at G9 Outsourcing Corp.",
+      "repoUrl": "https://github.com/jgmchavez-22/EOC-Break-FRVNT",
+      "summary": "Full-stack client/server operational utility that ingests campaign data from Google Sheets via an authenticated local Python CORS proxy and renders styled Excel summaries with zero manual formula entry.",
+      "context": "Campaign reporting teams had to manually copy, reformat, and calculate performance metrics from live Google Sheets into client-facing Excel spreadsheets, risking human error and spending hours per reporting cycle.",
+      "objective": "Build a secure, lightweight, and self-contained reporting application that automatically pulls data, runs aggregation logic, and outputs formatted Excel reports.",
+      "role": "Lead Developer & Systems Architect — designed the architecture, wrote the Python proxy server, and engineered the browser-based data processing UI.",
+      "approach": [
+        "Engineered a lightweight local HTTP proxy in Python (`server.py`) using `http.server` and `urllib.request` with domain-filtering safeguards (restricting requests strictly to `docs.google.com`) to bypass browser CORS constraints.",
+        "Built an interactive single-page application (`EOC_Report_Generator.html`) incorporating SheetJS (`xlsx`) and ExcelJS to read, normalize, and construct customized workbook layouts with embedded styles.",
+        "Implemented clean command-line logging and real-time frontend status feedback for report generation progress."
+      ],
+      "deliverables": [
+        "Python HTTP proxy server with domain validation security.",
+        "Interactive browser-based report generator with SheetJS & ExcelJS processing.",
+        "Direct one-click export of styled Excel workbooks."
+      ],
+      "outcome": "Eliminated manual spreadsheet transcription errors and streamlined campaign wrap-up reporting into an automated workflow executable with a single command (`python server.py`).",
+      "tags": [
+        "Python",
+        "JavaScript",
+        "HTML5",
+        "SheetJS",
+        "ExcelJS",
+        "Google Sheets API",
+        "CORS Proxy"
+      ]
+    },
+    {
+      "id": "shelfiq",
+      "title": "ShelfIQ // Perishable Spoilage Prediction & Restock Decision System",
+      "category": "Data Science & Machine Learning",
+      "status": "Completed / Uplift Code Camp Capstone",
+      "repoUrl": "https://github.com/jgmchavez-22/ShelfIQ",
+      "summary": "Multi-engine Streamlit machine learning application that predicts cold-chain perishable spoilage risks and generates automated rescue-pricing actions for Philippine grocery MSMEs.",
+      "context": "Mid-sized grocers and chilled-goods distributors face significant revenue loss during El Niño heat waves and cold-chain transit delays because standard static inventory models cannot anticipate transit decay.",
+      "objective": "Build an end-to-end ML decision support application forecasting Remaining Useful Life (RUL) and triggering timely discount strategies before goods spoil.",
+      "role": "Machine Learning Engineer (Capstone Co-Developer) — developed the Spoilage Prediction Engine (pages/rul_model.py) using Random Forest classification, mapped feature importances, and built automated urgency-tier markdown rules.",
+      "approach": [
+        "Trained a Random Forest Classifier on historical inventory logs and transit metrics (stock levels, days to sell, daily demand, lead times, sensitivity scores) to predict perishable batch spoilage.",
+        "Engineered dynamic inference comparing current inventory lots against remaining shelf-life days to segment stock into four action tiers (Final Markdown <24h, Priority Sell 1-2d, Early Markdown 3-5d, Watch 5+d).",
+        "Implemented automated rescue interventions including upcycle recommendations for produce/dairy and targeted discount ranges (5% to 50%) to accelerate demand prior to spoilage.",
+        "Integrated prediction outputs directly into the shared Streamlit application with interactive KPI metrics and downloadable CSV reports."
+      ],
+      "deliverables": [
+        "Random Forest Remaining Useful Life (RUL) Spoilage Engine (pages/rul_model.py).",
+        "Dynamic urgency tier categorization and markdown rule generator.",
+        "Interactive Streamlit dashboard metrics and downloadable CSV reports."
+      ],
+      "outcome": "Successfully pitched and demonstrated to Uplift Code Camp evaluators as an end-to-end decision support tool bridging data science predictions with actionable store-level retail decisions.",
+      "tags": [
+        "Python",
+        "Machine Learning",
+        "Random Forest",
+        "Scikit-Learn",
+        "Pandas",
+        "Streamlit",
+        "FMCG Logistics"
+      ]
+    },
+    {
+      "id": "matchlink-templater",
+      "title": "Match Link // Company Name Templater",
+      "category": "Software & Automation",
+      "status": "Hardened Production Web Application (v1.0.0)",
+      "repoUrl": "https://github.com/jgmchavez-22/Match-Link",
+      "summary": "Production-hardened FastAPI and Pandas web utility that normalizes corporate legal suffixes, strips non-alphanumeric noise, and dynamically generates tiered Excel lookup formulas with bounded memory caching, Docker containerization, and 94% automated test coverage.",
+      "context": "Reconciling vendor, client, and lead lists across CRM platforms and accounting databases frequently fails exact matching due to inconsistent entity spellings (e.g., 'PTE. LTD.', 'LLC', 'Corp') and punctuation differences.",
+      "objective": "Create a fast, standalone desktop/browser application to ingest tabular data, automate legal suffix stripping, and calculate live Excel formula helper columns for multi-tiered lookup matching.",
+      "role": "Lead Developer & Maintainer — designed the FastAPI backend, normalization regex pipelines, OpenPyXL workbook formatting, and glassmorphism interface.",
+      "approach": [
+        "Engineered suffix-normalization regular expressions mapping varied legal forms (P.T.E. L.T.D., PRIVATE LIMITED, etc.) to canonical tokens before stripping them down to alphanumeric match keys.",
+        "Calculated 1-based dynamic Excel column indices to generate formula strings (=LEFT(ColRow, N)) directly inside exported workbooks.",
+        "Constructed an asynchronous FastAPI backend paired with an accessible drag-and-drop and text-paste frontend.",
+        "Hardened server reliability with BoundedResultStore LRU/TTL caching to prevent memory exhaustion and implemented GitHub Actions matrix CI across Python 3.10-3.13."
+      ],
+      "deliverables": [
+        "FastAPI backend with bounded in-memory LRU/TTL result storage.",
+        "Multi-stage Dockerfile and docker-compose deployment configuration.",
+        "30-case automated Pytest suite (94% coverage) with GitHub Actions CI matrix."
+      ],
+      "outcome": "Automated data-preparation tasks for list reconciliation, eliminating manual text-editing hours and standardizing lookup keys across operational databases.",
+      "tags": [
+        "Python",
+        "FastAPI",
+        "Pandas",
+        "OpenPyXL",
+        "Data Cleaning",
+        "JavaScript",
+        "Automation",
+        "Docker",
+        "Pytest",
+        "CI/CD"
+      ]
+    },
+    {
+      "id": "bi-dashboards",
+      "title": "Multi-Source Business Intelligence & Reporting Pipeline",
+      "category": "Data & Analytics",
+      "status": "Enterprise Deployment",
+      "repoUrl": null,
+      "summary": "Unified data reporting system integrating CRM records and operational spreadsheets into executive Power BI and Looker Studio dashboards.",
+      "context": "G9Outsourcing operations tracked client performance, agent activity, and deliverables across multiple disjointed spreadsheets and CRM tables, causing delayed visibility and manual overhead.",
+      "objective": "Consolidate heterogeneous operational streams into a singular, automated reporting dashboard with automated daily refresh cycles.",
+      "role": "Database Management & Reports Specialist — conducted schema analysis, built transformation queries, and designed executive dashboards.",
+      "approach": [
+        "Consolidated multi-source data feeds using Power Query and SQL to standardize timestamps, status flags, and client IDs.",
+        "Engineered relational data models and calculated measures (DAX) to track turnaround times, completion percentages, and productivity KPIs.",
+        "Published role-based interactive dashboards in Power BI and Looker Studio for departmental leadership and clients."
+      ],
+      "deliverables": [
+        "Automated data consolidation pipeline via Power Query/SQL.",
+        "Executive Power BI & Looker Studio interactive dashboards.",
+        "Standardized KPI tracking dictionary and documentation."
+      ],
+      "outcome": "Reduced recurring manual reporting turnaround time by an estimated 30%, giving stakeholders real-time visibility into operational bottlenecks.",
+      "tags": [
+        "Power BI",
+        "SQL",
+        "Power Query",
+        "Looker Studio",
+        "Data Modeling",
+        "Business Intelligence"
+      ]
+    },
+    {
+      "id": "workflow-automations",
+      "title": "Python Operational Workflow Automation Suite",
+      "category": "Software & Automation",
+      "status": "Internal Enterprise Tooling",
+      "repoUrl": null,
+      "summary": "Suite of 5–10 automated micro-services and scripts combining Python web scraping and LLMs to eliminate repetitive data gathering and validation tasks.",
+      "context": "Operational staff spent significant weekly hours manually scraping public registry data, parsing unstructured email text, and re-entering records into internal systems.",
+      "objective": "Automate high-volume repetitive workflows to reduce human labor, improve turnaround speed, and eradicate data-entry errors.",
+      "role": "Automation Specialist — identified automation candidates, authored Python scripts, and integrated LLM parsing routines.",
+      "approach": [
+        "Built custom web scrapers using Python (`requests`, `BeautifulSoup`) to extract structured information from public portals on schedule.",
+        "Integrated LLM APIs with structured output prompting to parse variable-format text entries into clean JSON payloads.",
+        "Configured scheduled batch jobs with error logging and automated alert notifications upon data discrepancies."
+      ],
+      "deliverables": [
+        "5–10 production Python automation scripts.",
+        "Automated data extraction and LLM parsing pipelines.",
+        "Logging and alert framework for unhandled exceptions."
+      ],
+      "outcome": "Saved an estimated 4–6 hours of manual effort weekly across operations while eliminating recurring transcription errors.",
+      "tags": [
+        "Python",
+        "Web Scraping",
+        "LLMs",
+        "Process Automation",
+        "JSON",
+        "Error Handling"
+      ]
+    },
+    {
+      "id": "compliance-tracker",
+      "title": "Multi-Agency Regulatory Compliance & Calendar System",
+      "category": "Process & Operations",
+      "status": "Operational Workflow",
+      "repoUrl": null,
+      "summary": "Structured compliance tracking and stakeholder coordination system managing 15–20 simultaneous statutory filings across SEC, DOJ, BI, and DOLE.",
+      "context": "Corporate clients faced substantial financial and legal penalties if statutory submissions to Philippine government agencies missed rigid deadlines.",
+      "objective": "Establish a bulletproof tracking protocol ensuring all document drafts, reviews, notarizations, and agency submissions occurred ahead of regulatory cutoffs.",
+      "role": "Paralegal — managed compliance calendars, audited statutory requirements, drafted legal documents, and coordinated multi-party execution.",
+      "approach": [
+        "Mapped agency-specific statutory timelines and filing pre-requisites for the SEC, Department of Justice, Bureau of Immigration, and DOLE.",
+        "Implemented standardized Basecamp milestone templates, recurring review checkpoints, and automated calendar notifications.",
+        "Established pre-filing compliance checklists to ensure all annexes, board resolutions, and authorized signatures were authenticated prior to submission."
+      ],
+      "deliverables": [
+        "Centralized regulatory compliance calendar tracking 15–20 concurrent deadlines.",
+        "Agency-specific submission check-sheets and document templates.",
+        "Multi-stakeholder communication workflows in Basecamp."
+      ],
+      "outcome": "Achieved a 100% on-time submission rate across all handled client filings with zero regulatory fines or administrative delays.",
+      "tags": [
+        "Regulatory Compliance",
+        "Basecamp",
+        "SEC / DOJ / BI / DOLE",
+        "Project Coordination",
+        "Risk Mitigation"
+      ]
+    },
+    {
+      "id": "it-infrastructure",
+      "title": "Dual-OS Workstation Fleet & Network Infrastructure",
+      "category": "IT Support & Systems",
+      "status": "Infrastructure Deployment",
+      "repoUrl": null,
+      "summary": "End-to-end administration of hybrid Windows and macOS workstations, structured cabling, and enterprise Wi-Fi for travel operations.",
+      "context": "TMC Travel and Tours required reliable 24/7 client booking and sales operations without interruptions caused by operating system glitches or network drops.",
+      "objective": "Standardize workstation deployments, optimize office network topology, and establish rapid incident resolution protocols.",
+      "role": "IT Specialist — directed workstation provisioning, physical and wireless network setup, and technical support ticketing.",
+      "approach": [
+        "Provisioned, configured, and hardened Windows and macOS laptops and desktops with role-based software images and security baselines.",
+        "Designed and laid structured Ethernet cabling and configured commercial Wi-Fi access points to optimize coverage and eliminate dead zones.",
+        "Established proactive diagnostic procedures for hardware faults, printer/peripheral sharing, and operating system updates."
+      ],
+      "deliverables": [
+        "Standardized dual-OS workstation fleet configuration.",
+        "Reliable structured cabling and office Wi-Fi network.",
+        "First-touch technical support resolution workflow."
+      ],
+      "outcome": "Maintained continuous network availability and minimized office downtime across busy reservation and customer sales seasons.",
+      "tags": [
+        "Windows",
+        "macOS",
+        "Structured Cabling",
+        "Wi-Fi Configuration",
+        "Hardware Troubleshooting",
+        "Cybersecurity"
+      ]
+    }
+  ]
 }
