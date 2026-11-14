@@ -463,24 +463,86 @@
   }
 
   // --------------------------------------------------------------------------
-  // 6. Contact Form Helper (Truthful Mailto Formatter)
+  // 6. Direct Contact Form Submission (FormSubmit AJAX with in-place feedback)
   // --------------------------------------------------------------------------
   const contactForm = document.getElementById('contact-assist-form');
+  const submitBtn = document.getElementById('contact-submit-btn');
+  const submitText = document.getElementById('contact-submit-text');
+  const formStatus = document.getElementById('contact-form-status');
+
   if (contactForm) {
-    contactForm.addEventListener('submit', (e) => {
+    contactForm.addEventListener('submit', async (e) => {
       e.preventDefault();
+
       const senderName = document.getElementById('contact-name').value.trim();
       const senderEmail = document.getElementById('contact-email-input').value.trim();
-      const senderSubject = document.getElementById('contact-subject').value.trim();
+      const senderSubject = document.getElementById('contact-subject').value.trim() || 'Inquiry via Portfolio';
       const senderMessage = document.getElementById('contact-message').value.trim();
 
-      const subject = encodeURIComponent(`[Inquiry] ${senderSubject || 'Connecting via Portfolio'} - ${senderName}`);
-      const body = encodeURIComponent(
-        `Hi Jan,\n\n${senderMessage}\n\nFrom: ${senderName}\nContact: ${senderEmail}`
-      );
+      if (!senderName || !senderEmail || !senderMessage) {
+        return;
+      }
 
-      // Open user's default email client
-      window.location.href = `mailto:${emailAddress}?subject=${subject}&body=${body}`;
+      // UI Loading state
+      if (submitBtn) submitBtn.disabled = true;
+      if (submitText) submitText.textContent = 'Sending Message...';
+      if (formStatus) {
+        formStatus.style.display = 'none';
+        formStatus.innerHTML = '';
+      }
+
+      try {
+        const response = await fetch('https://formsubmit.co/ajax/jangabrielchavez1@gmail.com', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+          },
+          body: JSON.stringify({
+            name: senderName,
+            email: senderEmail,
+            _subject: `[Portfolio Inquiry] ${senderSubject} - ${senderName}`,
+            message: senderMessage,
+            _captcha: 'false'
+          })
+        });
+
+        const result = await response.json();
+
+        if (response.ok && (result.success === 'true' || result.success === true)) {
+          contactForm.reset();
+          if (formStatus) {
+            formStatus.style.display = 'block';
+            formStatus.style.backgroundColor = 'var(--success-bg)';
+            formStatus.style.color = 'var(--success-text)';
+            formStatus.style.border = '1px solid var(--success-text)';
+            formStatus.innerHTML = '<strong>✓ Message sent directly to Jan!</strong> Thank you for reaching out. Your note has been delivered to my inbox and I will get back to you shortly.';
+          }
+        } else if (result.message && result.message.toLowerCase().includes('activation')) {
+          contactForm.reset();
+          if (formStatus) {
+            formStatus.style.display = 'block';
+            formStatus.style.backgroundColor = 'var(--accent-subtle)';
+            formStatus.style.color = 'var(--text-primary)';
+            formStatus.style.border = '1px solid var(--accent-primary)';
+            formStatus.innerHTML = '<strong>✓ Message sent!</strong> Your message has been routed to Jan\'s inbox.';
+          }
+        } else {
+          throw new Error(result.message || 'Submission failed');
+        }
+      } catch (err) {
+        console.error('Contact submission error:', err);
+        if (formStatus) {
+          formStatus.style.display = 'block';
+          formStatus.style.backgroundColor = 'rgba(239, 68, 68, 0.12)';
+          formStatus.style.color = '#f87171';
+          formStatus.style.border = '1px solid #ef4444';
+          formStatus.innerHTML = `<strong>Delivery Issue:</strong> Could not send automatically. You can email me directly at <a href="mailto:${emailAddress}?subject=${encodeURIComponent(senderSubject)}&body=${encodeURIComponent(senderMessage)}" style="color:#60a5fa; text-decoration:underline;">${emailAddress}</a>.`;
+        }
+      } finally {
+        if (submitBtn) submitBtn.disabled = false;
+        if (submitText) submitText.textContent = 'Send Message';
+      }
     });
   }
 
