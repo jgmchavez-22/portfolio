@@ -253,6 +253,24 @@ a:hover {
   text-decoration: none;
 }
 
+.brand-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top center;
+  border: 2px solid var(--accent-primary);
+  display: block;
+  flex-shrink: 0;
+  box-shadow: 0 2px 8px var(--accent-glow);
+  transition: transform var(--transition-fast), border-color var(--transition-fast);
+}
+
+.brand-link:hover .brand-avatar {
+  transform: scale(1.05);
+  border-color: var(--accent-hover);
+}
+
 .brand-badge {
   display: inline-flex;
   align-items: center;
