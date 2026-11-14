@@ -350,8 +350,8 @@
 
     let html = `
       <div style="margin-bottom: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center;">
-        <span class="tool-tag" style="background: var(--accent-subtle); color: var(--accent-primary); border-color: rgba(59,130,246,0.3); font-weight: 600;">${data.category}</span>
-        <span class="tool-tag" style="background: var(--success-bg); color: var(--success-text); border-color: rgba(52,211,153,0.3); font-weight: 600;">${data.status}</span>
+        <span class="tool-tag" style="background: var(--accent-subtle); color: var(--accent-primary); border-color: var(--accent-glow); font-weight: 600;">${data.category}</span>
+        <span class="tool-tag" style="background: var(--bg-surface-elevated); color: var(--text-secondary); border-color: var(--border-subtle); font-weight: 600;">${data.status}</span>
         ${data.repoUrl ? `<a href="${data.repoUrl}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline" style="margin-left: auto;">View GitHub Repository ↗</a>` : ''}
       </div>
     `;
