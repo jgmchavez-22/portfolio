@@ -4,7 +4,7 @@
     "headline": "Database Management & Workflow Automation Specialist",
     "valueProposition": "Automating repetitive operational workflows and building unified BI reporting pipelines that turn multi-source data into reliable, actionable decisions.",
     "shortBio": "Detail-oriented IT and database professional with proven experience developing workflow automations in Python, architecting Business Intelligence dashboards, and managing CRM data validation. Backed by formal training in Python for Data & AI and ISC2 Cybersecurity certification, with an operational background in cross-agency regulatory compliance and multi-platform IT administration.",
-    "location": "Parañaque City, Metro Manila, Philippines",
+    "location": "Para\u00f1aque City, Metro Manila, Philippines",
     "email": "jangabrielchavez1@gmail.com",
     "github": "https://github.com/jgmchavez-22",
     "linkedin": "https://www.linkedin.com/in/jgmchavez/"
@@ -13,7 +13,7 @@
     {
       "title": "Workflow Automation & Scripting",
       "tagline": "Eliminating manual data entry and repetitive tasks",
-      "description": "Designs and implements Python scripts, web scrapers, and AI/LLM integrations to automate repetitive multi-step operational workflows, saving teams 4–6 manual hours every week.",
+      "description": "Designs and implements Python scripts, web scrapers, and AI/LLM integrations to automate repetitive multi-step operational workflows, saving teams 4\u20136 manual hours every week.",
       "tools": [
         "Python",
         "Web Scraping",
@@ -59,7 +59,7 @@
     {
       "title": "Regulatory Compliance & Case Coordination",
       "tagline": "Tracking high-stakes requirements across regulatory agencies",
-      "description": "Tracked and met 15–20 concurrent statutory compliance deadlines across four Philippine government agencies (SEC, DOJ, BI, DOLE) with structured Basecamp project workflows.",
+      "description": "Tracked and met 15\u201320 concurrent statutory compliance deadlines across four Philippine government agencies (SEC, DOJ, BI, DOLE) with structured Basecamp project workflows.",
       "tools": [
         "Basecamp",
         "Statutory Compliance",
@@ -104,11 +104,11 @@
       "title": "Database Management and Reports Specialist",
       "company": "G9Outsourcing Corp.",
       "location": "Makati, Metro Manila",
-      "period": "Feb 2026 – Present",
+      "period": "Feb 2026 \u2013 Present",
       "type": "Full-Time",
       "highlights": [
         "Developed Business Intelligence dashboards consolidating data from multiple operational sources, reducing manual reporting time by an estimated 30%.",
-        "Automated 5–10 repetitive operational workflows using Python, HTML, web scraping, and large language models, saving approximately 4–6 hours of manual labor weekly.",
+        "Automated 5\u201310 repetitive operational workflows using Python, HTML, web scraping, and large language models, saving approximately 4\u20136 hours of manual labor weekly.",
         "Performed continuous software QA checks and systematically validated CRM data to ensure high data integrity, reliability, and audit readiness."
       ]
     },
@@ -116,10 +116,10 @@
       "title": "Paralegal",
       "company": "Duran & Duran-Schulze Law",
       "location": "Taguig, Metro Manila",
-      "period": "July 2025 – Nov 2025",
+      "period": "July 2025 \u2013 Nov 2025",
       "type": "Contract / Full-Time",
       "highlights": [
-        "Managed strict regulatory compliance calendars and tracked 15–20 concurrent legal deadlines, ensuring zero missed submissions and structured document preparation.",
+        "Managed strict regulatory compliance calendars and tracked 15\u201320 concurrent legal deadlines, ensuring zero missed submissions and structured document preparation.",
         "Drafted and audited legal filings while coordinating requirements across four government agencies: SEC, DOJ, Bureau of Immigration (BI), and DOLE.",
         "Coordinated multi-stakeholder communications across clients, senior attorneys, and external agencies using Basecamp, tracking active case milestones."
       ]
@@ -127,8 +127,8 @@
     {
       "title": "IT Specialist",
       "company": "TMC Travel and Tours",
-      "location": "Parañaque, Metro Manila",
-      "period": "July 2023 – July 2024",
+      "location": "Para\u00f1aque, Metro Manila",
+      "period": "July 2023 \u2013 July 2024",
       "type": "Full-Time",
       "highlights": [
         "Maintained fleet of Windows and macOS workstations, troubleshooting hardware, operating systems, and office software to eliminate operational disruptions.",
@@ -138,8 +138,8 @@
     {
       "title": "Sales and Marketing Associate",
       "company": "TMC Travel and Tours",
-      "location": "Parañaque, Metro Manila",
-      "period": "Jan 2022 – July 2023",
+      "location": "Para\u00f1aque, Metro Manila",
+      "period": "Jan 2022 \u2013 July 2023",
       "type": "Full-Time",
       "highlights": [
         "Coordinated bookings, handled high-volume client inquiries, and executed promotional campaigns to drive customer satisfaction and client acquisition."
@@ -151,7 +151,7 @@
       "degree": "Bachelor of Science in Business Administration (BSBA), Major in Marketing Management",
       "institution": "University of Santo Tomas",
       "location": "Manila, Philippines",
-      "period": "2020 – 2024"
+      "period": "2020 \u2013 2024"
     }
   ],
   "certifications": [
@@ -184,7 +184,7 @@
       "summary": "High-throughput, zero-dependency Python streaming engine and CLI that eliminates O(N^2) quadratic scaling bottlenecks in enterprise entity matching by deterministically normalizing corporate structures across 8 global jurisdictions and computing Soundex blocking keys.",
       "context": "Enterprise data pipelines and CRM migrations (Salesforce, HubSpot, SAP) frequently struggle with messy corporate names. Probabilistic fuzzy matching (Levenshtein, Splink, Dedupe) triggers false-positive entity merges and explodes in quadratic compute complexity on unindexed datasets.",
       "objective": "Build a lightweight, zero-dependency streaming CLI and library that standardizes international corporate suffixes, cleans punctuation noise, and calculates deterministic phonetic blocking keys in constant O(1) memory.",
-      "role": "Lead Author & Open-Source Maintainer — architected the jurisdictional regex lexer, Soundex phonetic generator, constant-memory streaming pipeline, automated GitHub Actions matrix CI, and PyPI packaging.",
+      "role": "Lead Author & Open-Source Maintainer \u2014 architected the jurisdictional regex lexer, Soundex phonetic generator, constant-memory streaming pipeline, automated GitHub Actions matrix CI, and PyPI packaging.",
       "approach": [
         "Engineered a multi-jurisdiction priority lexer standardizing complex entity structures across US, UK, Singapore (ACRA), DACH (GmbH, AG, KG), Netherlands (BV, NV), France/Spain/Italy (SA, SRL, SAS, SPA), and Philippines (INC, CORP, OPC).",
         "Implemented 4-character American Soundex phonetic blocking partitions and multi-tier substring prefix keys (Left 25, 15, 10) to support high-speed database joins and index blocking.",
@@ -216,7 +216,7 @@
       "summary": "Zero-dependency Git pre-commit hook and CLI auditor that stops unmasked PII, schema drift, and null pollution before tabular datasets are committed to version control.",
       "context": "Accidentally committing raw client data, CRM extracts, or analytics dumps containing unmasked PII triggers immediate legal and compliance breaches (GDPR, CCPA, Philippine Data Privacy Act), while silent schema drift corrupts downstream ETL jobs.",
       "objective": "Build a fast, pre-commit-compatible auditor that blocks contaminated CSV/TSV commits using regex scanning, Luhn algorithm verification, and schema contract validation.",
-      "role": "Lead Developer & Security Architect — engineered the PII detection patterns, Luhn algorithm validator, schema comparison engine, pre-commit configuration, and matrix CI.",
+      "role": "Lead Developer & Security Architect \u2014 engineered the PII detection patterns, Luhn algorithm validator, schema comparison engine, pre-commit configuration, and matrix CI.",
       "approach": [
         "Implemented high-precision PII detection for emails, phone numbers, and SSN/tax IDs, paired with Luhn algorithm checksums on credit cards to prevent false positives.",
         "Built schema contract enforcement checking staged files against JSON baselines to catch column drift and unexpected schema mutations.",
@@ -240,6 +240,99 @@
       ]
     },
     {
+      "id": "contact-consolidator",
+      "title": "Contact Consolidator // Multi-Vector Deduplication & Merging Engine",
+      "category": "Data Engineering & Algorithms",
+      "status": "Published Open-Source Engine",
+      "repoUrl": "https://github.com/jgmchavez-22/contact-consolidator",
+      "summary": "High-performance Python data engine utilizing Disjoint Set Union (DSU) graph algorithms and priority conflict matrices to deduplicate, normalize, and merge massive B2B lead lists across heterogeneous spreadsheets.",
+      "context": "Enterprise CRM migrations routinely ingest customer contacts from dozens of disparate spreadsheets. Duplicates share conflicting partial identifiers (alternate emails, partial phones, LinkedIn profiles), causing naive deduplication to fail or explode in compute time.",
+      "objective": "Build an optimized graph clustering engine linking duplicates across 6 matching vectors simultaneously with deterministic conflict resolution via a 136-tier priority matrix.",
+      "role": "Lead Developer \u2014 designed the Disjoint Set Union (DSU) graph clustering architecture, priority score resolution engine, multi-sheet workbook parser, and unit test suite.",
+      "approach": [
+        "Implemented Disjoint Set Union (DSU) with path compression for near-constant O(\u03b1(N)) cluster discovery across 6 identifiers.",
+        "Engineered a 136-tier Result Code priority matrix ensuring high-value interaction records prevail while backfilling demographic attributes.",
+        "Automated text normalization, E.164 phone sanitization, LinkedIn URL stripping, and DNC list enforcement.",
+        "Developed a 32-test unit testing suite covering scoring, validation, and multi-vector graph merging."
+      ],
+      "deliverables": [
+        "Core DSU deduplication pipeline (consolidate.py).",
+        "Configurable column mapping and 136-tier priority matrix (config.json).",
+        "Comprehensive 32-test unit test suite (test_consolidate.py)."
+      ],
+      "outcome": "Successfully deduplicates and prioritizes over 1,000,000 contact records in seconds with zero external database dependencies.",
+      "tags": [
+        "Python",
+        "Algorithms",
+        "Graph Theory",
+        "DSU",
+        "Data Engineering",
+        "Pandas",
+        "Deduplication"
+      ]
+    },
+    {
+      "id": "contact-lot-cleaner",
+      "title": "Contact Lot Cleaner // Telephony & CRM Lead Normalizer",
+      "category": "Software & Automation",
+      "status": "Published Open-Source Tool",
+      "repoUrl": "https://github.com/jgmchavez-22/contact-lot-cleaner",
+      "summary": "Dual-interface utility (Python CLI + client-side SheetJS web tool) that executes an 8-stage pipeline to standardize contact lists, format international phone numbers for auto-dialers, infer geographic regions, and screen job titles against DNC lists.",
+      "context": "Outbound call centers and sales operations lose significant productivity when agents dial unformatted phone numbers, split names manually, or reach disqualified leads.",
+      "objective": "Automate the end-to-end normalization of raw contact lots with zero-install client-side browser execution and high-speed Python terminal batching.",
+      "role": "Sole Author \u2014 designed both the Python batch CLI and the zero-dependency client-side HTML/JavaScript application.",
+      "approach": [
+        "Engineered an 8-stage normalization pipeline standardizing dialer prefixes, splitting full names, and mapping geographic regions.",
+        "Integrated Google libphonenumber and Python phonenumbers for strict E.164 dialer formatting across multi-line priority queues.",
+        "Implemented automated substring matching against custom DNC exclusion lists to screen out unqualified job titles.",
+        "Built an in-browser web application using SheetJS for 100% private, local client-side processing."
+      ],
+      "deliverables": [
+        "Python CLI data cleaner (contact_lot_cleaner.py).",
+        "Interactive browser-based web application (contact_lot_cleaner.html).",
+        "Customizable job title exclusion filter (excluded_titles.txt)."
+      ],
+      "outcome": "Eliminated manual spreadsheet prep time for outbound campaigns, guaranteeing 100% dialer-compatible phone formatting.",
+      "tags": [
+        "Python",
+        "JavaScript",
+        "SheetJS",
+        "libphonenumber",
+        "CRM Automation",
+        "Data Cleaning"
+      ]
+    },
+    {
+      "id": "crm-contact-verification",
+      "title": "CRM Contact Verification // AI Agent Skill & Email Permutations",
+      "category": "AI & Agentic Systems",
+      "status": "Published Open-Source Specification & Tool",
+      "repoUrl": "https://github.com/jgmchavez-22/crm-contact-verification",
+      "summary": "Automated B2B contact verification framework, AI agent skill, and corporate email permutation generator that validates employment records, standardizes multi-jurisdiction domain patterns, and verifies deliverability.",
+      "context": "Sales development pipelines suffer severe deliverability hits and high bounce rates due to outdated employer data and unknown corporate email conventions.",
+      "objective": "Build an automated framework and CLI generating ranked corporate email permutations and guiding AI agents through strict, deterministic lead validation.",
+      "role": "Author & Agent Architect \u2014 designed the email permutation algorithm, Unicode folding logic, and standard Antigravity/Agentic skill specification.",
+      "approach": [
+        "Developed a zero-dependency Python script generating prioritized corporate email permutations with compound surname support.",
+        "Authored a standardized AI agent skill specification (SKILL.md) enforcing strict top-down verification rules.",
+        "Documented comprehensive procedural references for SMTP response codes and corporate subsidiary resolution."
+      ],
+      "deliverables": [
+        "Corporate email permutation CLI (scripts/email_permutations.py).",
+        "Standardized AI Agent Skill definition (SKILL.md).",
+        "Technical reference guides for SMTP verification and corporate hierarchy resolution."
+      ],
+      "outcome": "Provides a deterministic, agentic workflow for B2B data teams to verify lead lists before outbound deployment.",
+      "tags": [
+        "Python",
+        "AI Agents",
+        "Skills",
+        "Lead Generation",
+        "CRM Verification",
+        "Data Quality"
+      ]
+    },
+    {
       "id": "eoc-buff",
       "title": "EOC Buff // End of Campaign Report Generator",
       "category": "Software & Automation",
@@ -248,7 +341,7 @@
       "summary": "Full-stack client/server operational utility that ingests campaign data from Google Sheets via an authenticated local Python CORS proxy and renders styled Excel summaries with zero manual formula entry.",
       "context": "Campaign reporting teams had to manually copy, reformat, and calculate performance metrics from live Google Sheets into client-facing Excel spreadsheets, risking human error and spending hours per reporting cycle.",
       "objective": "Build a secure, lightweight, and self-contained reporting application that automatically pulls data, runs aggregation logic, and outputs formatted Excel reports.",
-      "role": "Lead Developer & Systems Architect — designed the architecture, wrote the Python proxy server, and engineered the browser-based data processing UI.",
+      "role": "Lead Developer & Systems Architect \u2014 designed the architecture, wrote the Python proxy server, and engineered the browser-based data processing UI.",
       "approach": [
         "Engineered a lightweight local HTTP proxy in Python (`server.py`) using `http.server` and `urllib.request` with domain-filtering safeguards (restricting requests strictly to `docs.google.com`) to bypass browser CORS constraints.",
         "Built an interactive single-page application (`EOC_Report_Generator.html`) incorporating SheetJS (`xlsx`) and ExcelJS to read, normalize, and construct customized workbook layouts with embedded styles.",
@@ -277,9 +370,9 @@
       "status": "Completed / Uplift Code Camp Capstone",
       "repoUrl": "https://github.com/jgmchavez-22/ShelfIQ",
       "summary": "Multi-engine Streamlit machine learning application that predicts cold-chain perishable spoilage risks and generates automated rescue-pricing actions for Philippine grocery MSMEs.",
-      "context": "Mid-sized grocers and chilled-goods distributors face significant revenue loss during El Niño heat waves and cold-chain transit delays because standard static inventory models cannot anticipate transit decay.",
+      "context": "Mid-sized grocers and chilled-goods distributors face significant revenue loss during El Ni\u00f1o heat waves and cold-chain transit delays because standard static inventory models cannot anticipate transit decay.",
       "objective": "Build an end-to-end ML decision support application forecasting Remaining Useful Life (RUL) and triggering timely discount strategies before goods spoil.",
-      "role": "Machine Learning Engineer (Capstone Co-Developer) — developed the Spoilage Prediction Engine (pages/rul_model.py) using Random Forest classification, mapped feature importances, and built automated urgency-tier markdown rules.",
+      "role": "Machine Learning Engineer (Capstone Co-Developer) \u2014 developed the Spoilage Prediction Engine (pages/rul_model.py) using Random Forest classification, mapped feature importances, and built automated urgency-tier markdown rules.",
       "approach": [
         "Trained a Random Forest Classifier on historical inventory logs and transit metrics (stock levels, days to sell, daily demand, lead times, sensitivity scores) to predict perishable batch spoilage.",
         "Engineered dynamic inference comparing current inventory lots against remaining shelf-life days to segment stock into four action tiers (Final Markdown <24h, Priority Sell 1-2d, Early Markdown 3-5d, Watch 5+d).",
@@ -311,7 +404,7 @@
       "summary": "Production-hardened FastAPI and Pandas web utility that normalizes corporate legal suffixes, strips non-alphanumeric noise, and dynamically generates tiered Excel lookup formulas with bounded memory caching, Docker containerization, and 94% automated test coverage.",
       "context": "Reconciling vendor, client, and lead lists across CRM platforms and accounting databases frequently fails exact matching due to inconsistent entity spellings (e.g., 'PTE. LTD.', 'LLC', 'Corp') and punctuation differences.",
       "objective": "Create a fast, standalone desktop/browser application to ingest tabular data, automate legal suffix stripping, and calculate live Excel formula helper columns for multi-tiered lookup matching.",
-      "role": "Lead Developer & Maintainer — designed the FastAPI backend, normalization regex pipelines, OpenPyXL workbook formatting, and glassmorphism interface.",
+      "role": "Lead Developer & Maintainer \u2014 designed the FastAPI backend, normalization regex pipelines, OpenPyXL workbook formatting, and glassmorphism interface.",
       "approach": [
         "Engineered suffix-normalization regular expressions mapping varied legal forms (P.T.E. L.T.D., PRIVATE LIMITED, etc.) to canonical tokens before stripping them down to alphanumeric match keys.",
         "Calculated 1-based dynamic Excel column indices to generate formula strings (=LEFT(ColRow, N)) directly inside exported workbooks.",
@@ -346,7 +439,7 @@
       "summary": "Unified data reporting system integrating CRM records and operational spreadsheets into executive Power BI and Looker Studio dashboards.",
       "context": "G9Outsourcing operations tracked client performance, agent activity, and deliverables across multiple disjointed spreadsheets and CRM tables, causing delayed visibility and manual overhead.",
       "objective": "Consolidate heterogeneous operational streams into a singular, automated reporting dashboard with automated daily refresh cycles.",
-      "role": "Database Management & Reports Specialist — conducted schema analysis, built transformation queries, and designed executive dashboards.",
+      "role": "Database Management & Reports Specialist \u2014 conducted schema analysis, built transformation queries, and designed executive dashboards.",
       "approach": [
         "Consolidated multi-source data feeds using Power Query and SQL to standardize timestamps, status flags, and client IDs.",
         "Engineered relational data models and calculated measures (DAX) to track turnaround times, completion percentages, and productivity KPIs.",
@@ -373,21 +466,21 @@
       "category": "Software & Automation",
       "status": "Internal Enterprise Tooling",
       "repoUrl": null,
-      "summary": "Suite of 5–10 automated micro-services and scripts combining Python web scraping and LLMs to eliminate repetitive data gathering and validation tasks.",
+      "summary": "Suite of 5\u201310 automated micro-services and scripts combining Python web scraping and LLMs to eliminate repetitive data gathering and validation tasks.",
       "context": "Operational staff spent significant weekly hours manually scraping public registry data, parsing unstructured email text, and re-entering records into internal systems.",
       "objective": "Automate high-volume repetitive workflows to reduce human labor, improve turnaround speed, and eradicate data-entry errors.",
-      "role": "Automation Specialist — identified automation candidates, authored Python scripts, and integrated LLM parsing routines.",
+      "role": "Automation Specialist \u2014 identified automation candidates, authored Python scripts, and integrated LLM parsing routines.",
       "approach": [
         "Built custom web scrapers using Python (`requests`, `BeautifulSoup`) to extract structured information from public portals on schedule.",
         "Integrated LLM APIs with structured output prompting to parse variable-format text entries into clean JSON payloads.",
         "Configured scheduled batch jobs with error logging and automated alert notifications upon data discrepancies."
       ],
       "deliverables": [
-        "5–10 production Python automation scripts.",
+        "5\u201310 production Python automation scripts.",
         "Automated data extraction and LLM parsing pipelines.",
         "Logging and alert framework for unhandled exceptions."
       ],
-      "outcome": "Saved an estimated 4–6 hours of manual effort weekly across operations while eliminating recurring transcription errors.",
+      "outcome": "Saved an estimated 4\u20136 hours of manual effort weekly across operations while eliminating recurring transcription errors.",
       "tags": [
         "Python",
         "Web Scraping",
@@ -403,17 +496,17 @@
       "category": "Process & Operations",
       "status": "Operational Workflow",
       "repoUrl": null,
-      "summary": "Structured compliance tracking and stakeholder coordination system managing 15–20 simultaneous statutory filings across SEC, DOJ, BI, and DOLE.",
+      "summary": "Structured compliance tracking and stakeholder coordination system managing 15\u201320 simultaneous statutory filings across SEC, DOJ, BI, and DOLE.",
       "context": "Corporate clients faced substantial financial and legal penalties if statutory submissions to Philippine government agencies missed rigid deadlines.",
       "objective": "Establish a bulletproof tracking protocol ensuring all document drafts, reviews, notarizations, and agency submissions occurred ahead of regulatory cutoffs.",
-      "role": "Paralegal — managed compliance calendars, audited statutory requirements, drafted legal documents, and coordinated multi-party execution.",
+      "role": "Paralegal \u2014 managed compliance calendars, audited statutory requirements, drafted legal documents, and coordinated multi-party execution.",
       "approach": [
         "Mapped agency-specific statutory timelines and filing pre-requisites for the SEC, Department of Justice, Bureau of Immigration, and DOLE.",
         "Implemented standardized Basecamp milestone templates, recurring review checkpoints, and automated calendar notifications.",
         "Established pre-filing compliance checklists to ensure all annexes, board resolutions, and authorized signatures were authenticated prior to submission."
       ],
       "deliverables": [
-        "Centralized regulatory compliance calendar tracking 15–20 concurrent deadlines.",
+        "Centralized regulatory compliance calendar tracking 15\u201320 concurrent deadlines.",
         "Agency-specific submission check-sheets and document templates.",
         "Multi-stakeholder communication workflows in Basecamp."
       ],
@@ -435,7 +528,7 @@
       "summary": "End-to-end administration of hybrid Windows and macOS workstations, structured cabling, and enterprise Wi-Fi for travel operations.",
       "context": "TMC Travel and Tours required reliable 24/7 client booking and sales operations without interruptions caused by operating system glitches or network drops.",
       "objective": "Standardize workstation deployments, optimize office network topology, and establish rapid incident resolution protocols.",
-      "role": "IT Specialist — directed workstation provisioning, physical and wireless network setup, and technical support ticketing.",
+      "role": "IT Specialist \u2014 directed workstation provisioning, physical and wireless network setup, and technical support ticketing.",
       "approach": [
         "Provisioned, configured, and hardened Windows and macOS laptops and desktops with role-based software images and security baselines.",
         "Designed and laid structured Ethernet cabling and configured commercial Wi-Fi access points to optimize coverage and eliminate dead zones.",
