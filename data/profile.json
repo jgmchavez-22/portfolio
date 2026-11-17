@@ -333,6 +333,37 @@
       ]
     },
     {
+      "id": "video-splitter",
+      "title": "Video Splitter // In-Browser Video Chunking & Transcoding Utility",
+      "category": "Software & Automation",
+      "status": "Published Open-Source Utility",
+      "repoUrl": "https://github.com/jgmchavez-22/video-splitter",
+      "summary": "Lightweight, cross-platform Flask web application that probes video stream metadata using FFmpeg and automatically splits long-form recordings by file size, duration, or custom intervals for messaging platform uploads.",
+      "context": "Sharing screen recordings and operational walkthroughs across messaging apps (WhatsApp, Slack, email) frequently fails due to strict attachment size thresholds (25MB-100MB), while traditional desktop editors require heavy manual trimming.",
+      "objective": "Build a self-hosted browser-based utility that inspects video streams, splits files deterministically in stream-copy mode without quality loss, bundles parts into ZIP archives, and self-cleans temporary files.",
+      "role": "Sole Author \u2014 designed the Flask API endpoints, FFmpeg stream probe and copy integration, dynamic ZIP bundler, and dark-mode front-end interface.",
+      "approach": [
+        "Integrated imageio-ffmpeg for zero-config cross-platform FFmpeg execution without manual system dependency installation.",
+        "Implemented precision stream-copying (-c copy) mode to segment long-form video in seconds with zero transcoding re-encoding overhead.",
+        "Engineered dual chunking modes: automatic target file size calculation (e.g., <25MB) and fixed time interval partitioning.",
+        "Built automated 30-minute transient storage garbage collection to prevent server storage bloat."
+      ],
+      "deliverables": [
+        "Flask backend web application with upload, probe, and transcode endpoints (app.py).",
+        "Responsive modern front-end web interface (index.html, style.css, app.js).",
+        "Cross-platform execution scripts for Windows (run.bat) and macOS/Linux (run.sh)."
+      ],
+      "outcome": "Enables instantaneous segmentation of gigabyte-scale screen recordings into chat-ready clips directly within the browser.",
+      "tags": [
+        "Python",
+        "Flask",
+        "FFmpeg",
+        "Media Processing",
+        "Web Application",
+        "JavaScript"
+      ]
+    },
+    {
       "id": "eoc-buff",
       "title": "EOC Buff // End of Campaign Report Generator",
       "category": "Software & Automation",
